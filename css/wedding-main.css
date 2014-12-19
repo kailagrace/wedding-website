@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body, h1, h2, h3, h4, p {font-family:'Quicksand', sans-serif;
+font-weight:light;}
+
+h1{float:left;
+width:300px;
+margin-top:-20px;
+margin-bottom:-12px;}
+
+h2{padding-top:60px;
+padding-left:100px;
+color:#223161;}
+
+h3{font-size:18px;}
+
+.main-side-navigation{text-align:right;
+margin-top:-1600px;
+margin-right:-90px;
+color:#223161;}
+
+
+.quicksand-font{font-family:'Quicksand', sans-serif;
+font-weight:light;}
+
+.tan-section{background-color:#e3e3dd;
+text-wrap:normal;}
+
+.section-content{padding:10px 10px 10px 10px;}
+.section-content img{padding:5px 5px 5px 5px;}
+
+.tan-section img{content-align:center;
+display:flex;}
+.side-nav li a:not(.button){
+	color:#223161;
+	}
+	.side-nav li a:not(.button):hover{
+	color:hsla(226,48%,26%,0.80);
+	}
+.side-nav{font-family:'Quicksand', sans-serif;}
+
+.row{margin-left:0;}
