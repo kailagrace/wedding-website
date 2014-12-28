@@ -376,31 +376,36 @@ h1 .header-photo {
     color: #a8a8a9;
     text-transform: uppercase;
   }
+
+  /* line 301, ../sass/screen.scss */
+  .header-photo {
+    margin-top: 10px;
+  }
 }
 @media screen and (min-width: 600px) {
-  /* line 308, ../sass/screen.scss */
+  /* line 309, ../sass/screen.scss */
   .desktop {
     display: block;
   }
 
-  /* line 309, ../sass/screen.scss */
+  /* line 310, ../sass/screen.scss */
   .mobile-only {
     display: none;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1150px) {
-  /* line 315, ../sass/screen.scss */
+  /* line 316, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 317, ../sass/screen.scss */
+  /* line 318, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 322, ../sass/screen.scss */
+  /* line 323, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
