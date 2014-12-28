@@ -1,0 +1,30 @@
+{
+  "name": "wedding-website",
+  "version": "0.0.0",
+  "homepage": "(https://github.com/kailagrace/wedding-website",
+  "authors": [
+    "Kaila Grace <kaila.manca@gmail.com>"
+  ],
+  "description": "Wedding website for Billy Czaja and Kaila Manca",
+  "main": "Kaila-Billy-2016.html",
+  "keywords": [
+    "wedding",
+    "2016",
+    "Billy",
+    "Czaja",
+    "Kaila",
+    "Manca",
+    "marriage",
+    "maine",
+    "wiscasett",
+    "Aug"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
