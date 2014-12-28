@@ -1,9 +1,8 @@
 $(document).ready(function() {
   
-  if( Modernizr.mq('only screen and (min-height: 640px)') ) {
-  // only executed if screen height is > 640px
 
-      var rotate = function() {
+
+     var rotate = function() {
       $("html")
         .delay(8000).queue(function() {
             $(this).removeClass("background-image-one");
@@ -41,6 +40,7 @@ $(document).ready(function() {
 
     rotate();
 
-}
+
+
 
 });

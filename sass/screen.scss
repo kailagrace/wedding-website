@@ -12,6 +12,9 @@ $image-background-three: url("../img/k-b-beach.jpg");
 $image-background-four: url("../img/k-b-biking.jpg");
 $image-background-five: url("../img/k-b-mountains.jpg");
 
+
+
+
 //----------------COLOR AREA--------------------//
 $black:black;
 
@@ -52,7 +55,10 @@ body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
   -o-background-size: cover;
   background-size: cover;
   height:auto;
- 
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .background-image-two{
@@ -63,6 +69,10 @@ body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
   -o-background-size: cover;
   background-size: cover;
   height:auto;
+   -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 
@@ -74,6 +84,10 @@ body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
   -o-background-size: cover;
   background-size: cover;
   height:auto;
+   -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 
@@ -86,6 +100,10 @@ body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
   -o-background-size: cover;
   background-size: cover;
   height:auto;
+   -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .background-image-five{
@@ -96,6 +114,10 @@ body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
   -o-background-size: cover;
   background-size: cover;
   height:auto;
+   -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 h1{float:left;
