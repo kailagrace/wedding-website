@@ -44,9 +44,7 @@ $full-size:100%;
 //----------------UNIVERSAL STYLES-------------------//
 
 html{
-	width:$full-size;
-	height:$full-size;
-	position:absolute;
+
 }
 
 
@@ -56,9 +54,10 @@ html{
 body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
 						font-weight:$light-font;
 						color:$dark-blue;
-						width:$full-size;
-						height:$full-size;
+						
 						}
+
+body{background:inherit;}
 
 nav{
 	text-transform:uppercase;
@@ -183,7 +182,7 @@ display:flex;}
 	}
 .side-nav{font-family:'Quicksand', sans-serif;}
 
-
+.home-page {height:100%;}
 
 
 ul{list-style-type:none;
