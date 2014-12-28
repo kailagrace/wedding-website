@@ -67,92 +67,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 body, h1, h2, h3, h4, p {
-  font-family: 'Quicksand', sans-serif;
+  font: 100% "Quicksand", sans-serif;
   font-weight: light;
-}
-
-/* line 11, ../sass/screen.scss */
-h1 {
-  float: left;
-  width: 300px;
-  margin-top: -20px;
-  margin-bottom: -12px;
-}
-
-/* line 16, ../sass/screen.scss */
-h2 {
-  padding-top: 60px;
-  padding-left: 100px;
-  color: #223161;
-}
-
-/* line 20, ../sass/screen.scss */
-h3 {
-  font-size: 18px;
-}
-
-/* line 22, ../sass/screen.scss */
-.main-side-navigation {
-  text-align: right;
-  margin-top: -1600px;
-  margin-right: -90px;
-  color: #223161;
-}
-
-/* line 28, ../sass/screen.scss */
-.quicksand-font {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: light;
-}
-
-/* line 31, ../sass/screen.scss */
-.tan-section {
-  background-color: #e3e3dd;
-  text-wrap: normal;
-}
-
-/* line 34, ../sass/screen.scss */
-.section-content {
-  padding: 10px 10px 10px 10px;
-}
-
-/* line 35, ../sass/screen.scss */
-.section-content img {
-  padding: 5px 5px 5px 5px;
-}
-
-/* line 37, ../sass/screen.scss */
-.tan-section img {
-  content-align: center;
-  display: flex;
-}
-
-/* line 39, ../sass/screen.scss */
-.side-nav li a:not(.button) {
-  color: #223161;
-}
-
-/* line 42, ../sass/screen.scss */
-.side-nav li a:not(.button):hover {
-  color: rgba(34, 49, 98, 0.8);
-}
-
-/* line 45, ../sass/screen.scss */
-.side-nav {
-  font-family: 'Quicksand', sans-serif;
+  color: black;
 }
 
 /* line 47, ../sass/screen.scss */
-.row {
-  margin-left: 0;
-}
-
-/* line 50, ../sass/screen.scss */
-html {
-  background-image: url(img/b+k.jpg);
-  background: url(img/b+k.jpg) no-repeat center center fixed;
+.background-image-one {
+  background-image: url("../img/b+k.jpg");
+  background: url("../img/b+k.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -160,17 +85,137 @@ html {
   height: auto;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
+.background-image-two {
+  background-image: url(".../img/k-and-b-hug.jpg");
+  background: url(".../img/k-and-b-hug.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
+/* line 69, ../sass/screen.scss */
+.background-image-three {
+  background-image: url(".../img/k-b-beach.jpg");
+  background: url(".../img/k-b-beach.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
+/* line 81, ../sass/screen.scss */
+.background-image-four {
+  background-image: url(".../img/k-b-biking.jpg");
+  background: url(".../img/k-b-biking.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
+/* line 91, ../sass/screen.scss */
+.background-image-four {
+  background-image: url(".../img/k-b-mountains.jpg");
+  background: url(".../img/k-b-mountains.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
+
+/* line 101, ../sass/screen.scss */
+h1 {
+  float: left;
+  width: 300px;
+  margin-top: -20px;
+  margin-bottom: -12px;
+}
+
+/* line 106, ../sass/screen.scss */
+h2 {
+  padding-top: 60px;
+  padding-left: 100px;
+  color: #223161;
+}
+
+/* line 110, ../sass/screen.scss */
+h3 {
+  font-size: 18px;
+}
+
+/* line 112, ../sass/screen.scss */
+.main-side-navigation {
+  text-align: right;
+  margin-top: -1600px;
+  margin-right: -90px;
+  color: #223161;
+}
+
+/* line 118, ../sass/screen.scss */
+.quicksand-font {
+  font-family: "Quicksand", sans-serif;
+  font-weight: light;
+}
+
+/* line 121, ../sass/screen.scss */
+.tan-section {
+  background-color: #e3e3dd;
+  text-wrap: normal;
+}
+
+/* line 124, ../sass/screen.scss */
+.section-content {
+  padding: 10px 10px 10px 10px;
+}
+
+/* line 125, ../sass/screen.scss */
+.section-content img {
+  padding: 5px 5px 5px 5px;
+}
+
+/* line 127, ../sass/screen.scss */
+.tan-section img {
+  content-align: center;
+  display: flex;
+}
+
+/* line 129, ../sass/screen.scss */
+.side-nav li a:not(.button) {
+  color: #223161;
+}
+
+/* line 133, ../sass/screen.scss */
+.side-nav li a:not(.button):hover {
+  color: rgba(34, 49, 98, 0.8);
+}
+
+/* line 136, ../sass/screen.scss */
+.side-nav {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* line 138, ../sass/screen.scss */
+.row {
+  margin-left: 0;
+}
+
+/* line 143, ../sass/screen.scss */
 body {
   background: inherit;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .home-page {
   height: 100%;
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 150, ../sass/screen.scss */
 nav {
   display: inline-flex;
   position: fixed;
@@ -178,12 +223,12 @@ nav {
   font-size: 18px;
 }
 
-/* line 76, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 ul {
   list-style-type: none;
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 li {
   text-shadow: -1px 2px 10px white;
   float: left;
@@ -191,19 +236,19 @@ li {
   padding-right: 15px;
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .quicksand-font {
   font-family: 'Quicksand', sans-serif;
   font-weight: light;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
 a {
   color: black;
   text-decoration: none;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 a:hover {
   color: rgba(0, 0, 0, 0.71);
 }

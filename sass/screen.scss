@@ -5,8 +5,98 @@
 
 @import "compass/reset";
 
-body, h1, h2, h3, h4, p {font-family:'Quicksand', sans-serif;
-font-weight:light;}
+//----------------IMAGE AREA--------------------//
+$image-background-one: url("../img/b+k.jpg");
+$image-background-two: url(".../img/k-and-b-hug.jpg");
+$image-background-three: url(".../img/k-b-beach.jpg");
+$image-background-four: url(".../img/k-b-biking.jpg");
+$image-background-five: url(".../img/k-b-mountains.jpg");
+
+//----------------COLOR AREA--------------------//
+$black:black;
+
+
+//----------------FONT TYPE SECTION--------------------//
+
+$Quicksand-font:'Quicksand', sans-serif;
+
+
+
+//----------------FONT WEIGHT SECTION--------------------//
+$light-font:light;
+
+
+
+
+//----------------UNIVERSAL STYLES-------------------//
+
+html{
+
+}
+
+
+
+
+
+body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
+						font-weight:$light-font;
+						color:$black;}
+
+
+
+.background-image-one{
+  background-image:$image-background-one;
+  background:$image-background-one no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:auto;
+ 
+}
+
+.background-image-two{
+  background-image:$image-background-two;
+  background: $image-background-two no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:auto;
+}
+
+
+.background-image-three{
+  background-image:$image-background-three;
+  background: $image-background-three no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:auto;
+}
+
+
+
+.background-image-four{
+  background-image:$image-background-four;
+  background: $image-background-four no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:auto;
+}
+
+.background-image-four{
+  background-image:$image-background-five;
+  background: $image-background-five no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:auto;
+}
 
 h1{float:left;
 width:300px;
@@ -25,8 +115,8 @@ margin-right:-90px;
 color:#223161;}
 
 
-.quicksand-font{font-family:'Quicksand', sans-serif;
-font-weight:light;}
+.quicksand-font{font-family:$Quicksand-font;
+font-weight:$light-font;}
 
 .tan-section{background-color:#e3e3dd;
 text-wrap:normal;}
@@ -39,7 +129,8 @@ display:flex;}
 .side-nav li a:not(.button){
 	color:#223161;
 	}
-	.side-nav li a:not(.button):hover{
+
+.side-nav li a:not(.button):hover{
 	color:hsla(226,48%,26%,0.80);
 	}
 .side-nav{font-family:'Quicksand', sans-serif;}
@@ -47,16 +138,6 @@ display:flex;}
 .row{margin-left:0;}
 
 
-html { 
-background-image:url(img/b+k.jpg);
-  background: url(img/b+k.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height:auto;
-
-}
 
 
 body{
