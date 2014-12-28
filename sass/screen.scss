@@ -17,6 +17,11 @@ $image-background-five: url("../img/k-b-mountains.jpg");
 
 //----------------COLOR AREA--------------------//
 $black:black;
+$gray:#a8a8a9;
+$white:#ffffff;
+$tan:#e3e3dd;
+$dark-blue:#223161;
+$mid-blue:#3f5b80;
 
 
 //----------------FONT TYPE SECTION--------------------//
@@ -30,11 +35,18 @@ $light-font:light;
 
 
 
+//----------------SIZING SECTION--------------------//
+
+$full-size:100%;
+
+
 
 //----------------UNIVERSAL STYLES-------------------//
 
 html{
-
+	width:$full-size;
+	height:$full-size;
+	position:absolute;
 }
 
 
@@ -43,9 +55,17 @@ html{
 
 body, h1, h2, h3, h4, p {font: 100% $Quicksand-font;
 						font-weight:$light-font;
-						color:$black;}
+						color:$dark-blue;
+						width:$full-size;
+						height:$full-size;
+						}
 
+nav{
+	text-transform:uppercase;
+	position:relative;
+	top:500px;
 
+}
 
 .background-image-one{
   background-image:$image-background-one;
@@ -131,23 +151,29 @@ color:#223161;}
 
 h3{font-size:18px;}
 
+
+.quicksand-font{font-family:$Quicksand-font;
+font-weight:$light-font;}
+
+
 .main-side-navigation{text-align:right;
 margin-top:-1600px;
 margin-right:-90px;
 color:#223161;}
 
 
-.quicksand-font{font-family:$Quicksand-font;
-font-weight:$light-font;}
-
-.tan-section{background-color:#e3e3dd;
+.tan-section{background-color:$tan;
 text-wrap:normal;}
+
+.tan-section img{content-align:center;
+display:flex;}
+
+
 
 .section-content{padding:10px 10px 10px 10px;}
 .section-content img{padding:5px 5px 5px 5px;}
 
-.tan-section img{content-align:center;
-display:flex;}
+
 .side-nav li a:not(.button){
 	color:#223161;
 	}
@@ -157,24 +183,8 @@ display:flex;}
 	}
 .side-nav{font-family:'Quicksand', sans-serif;}
 
-.row{margin-left:0;}
 
 
-
-
-body{
-	background:inherit;}
-
-.home-page{
-height:100%;}
-
-
-nav{
-	display:inline-flex;
-position:fixed;
-bottom:20px;
-
-font-size:18px;}
 
 ul{list-style-type:none;
 }
@@ -186,9 +196,6 @@ padding-left:15px;
 padding-right:15px;
 }
 
-
-.quicksand-font{font-family:'Quicksand', sans-serif;
-font-weight:light;}
 
 a{color:black;
 text-decoration:none;}
