@@ -15,7 +15,7 @@ $(document).ready(function() {
         $(this).dequeue();
           next();
     })
-    .delay(8000).queue(function(next) {
+    .delay(11000).queue(function(next) {
         $(this).removeClass("background-image-three");
         $(this).addClass("background-image-four");
         $(this).dequeue();
