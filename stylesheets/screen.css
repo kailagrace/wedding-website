@@ -356,11 +356,6 @@ h1 .header-photo {
     font-size: 18px;
   }
 
-  /* line 290, ../sass/screen.scss */
-  .sub-link {
-    display: none;
-  }
-
   /* line 291, ../sass/screen.scss */
   .desktop {
     display: none;
@@ -380,32 +375,33 @@ h1 .header-photo {
   /* line 301, ../sass/screen.scss */
   .header-photo {
     margin-top: 15px;
+    margin-left: -10px;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 309, ../sass/screen.scss */
+  /* line 313, ../sass/screen.scss */
   .desktop {
     display: block;
   }
 
-  /* line 310, ../sass/screen.scss */
+  /* line 314, ../sass/screen.scss */
   .mobile-only {
     display: none;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1150px) {
-  /* line 316, ../sass/screen.scss */
+  /* line 320, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 318, ../sass/screen.scss */
+  /* line 322, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 323, ../sass/screen.scss */
+  /* line 327, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
