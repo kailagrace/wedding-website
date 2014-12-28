@@ -379,7 +379,7 @@ h1 .header-photo {
 
   /* line 301, ../sass/screen.scss */
   .header-photo {
-    margin-top: 25px;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 600px) {
