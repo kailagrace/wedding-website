@@ -197,7 +197,7 @@ font-weight:$light-font;}
 
 .navigation-section{display:initial;
 					position:relative;
-					top:600px;
+					top:400px;
 					width:$full-size;
 
 
@@ -218,6 +218,8 @@ font-weight:$light-font;}
 
 #index-nav{	
 			top:500px;
+
+			a{color:$white;}
 		}
 
 
