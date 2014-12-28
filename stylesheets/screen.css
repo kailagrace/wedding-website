@@ -87,8 +87,8 @@ body, h1, h2, h3, h4, p {
 
 /* line 58, ../sass/screen.scss */
 .background-image-two {
-  background-image: url(".../img/k-and-b-hug.jpg");
-  background: url(".../img/k-and-b-hug.jpg") no-repeat center center fixed;
+  background-image: url("../img/k-and-b-hug.jpg");
+  background: url("../img/k-and-b-hug.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -98,8 +98,8 @@ body, h1, h2, h3, h4, p {
 
 /* line 69, ../sass/screen.scss */
 .background-image-three {
-  background-image: url(".../img/k-b-beach.jpg");
-  background: url(".../img/k-b-beach.jpg") no-repeat center center fixed;
+  background-image: url("../img/k-b-beach.jpg");
+  background: url("../img/k-b-beach.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,8 +109,8 @@ body, h1, h2, h3, h4, p {
 
 /* line 81, ../sass/screen.scss */
 .background-image-four {
-  background-image: url(".../img/k-b-biking.jpg");
-  background: url(".../img/k-b-biking.jpg") no-repeat center center fixed;
+  background-image: url("../img/k-b-biking.jpg");
+  background: url("../img/k-b-biking.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -120,8 +120,8 @@ body, h1, h2, h3, h4, p {
 
 /* line 91, ../sass/screen.scss */
 .background-image-four {
-  background-image: url(".../img/k-b-mountains.jpg");
-  background: url(".../img/k-b-mountains.jpg") no-repeat center center fixed;
+  background-image: url("../img/k-b-mountains.jpg");
+  background: url("../img/k-b-mountains.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
