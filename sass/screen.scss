@@ -228,6 +228,9 @@ font-weight:$light-font;}
 //------------IMAGES----------------//
 h1 .header-photo{margin-bottom:-50px;}
 
+.wedding-party-photo{width:200px;
+					float:left;}
+
 .subheader-info{margin-top:-50px;
 padding-bottom:10px;
 font-size:30px;}
@@ -270,7 +273,8 @@ display:flex;}
 
 //------EDITS FOR OFF-CANVAS MENU------//
 
-.mobile-only{background-color:$dark-blue;}
+.mobile-only{background-color:$dark-blue;
+			}
 .left-small{border:none;
 padding-right:2px;}
 
@@ -288,7 +292,7 @@ padding-right:2px;}
    
   }
 
-.desktop{display:none;}
+
 
 h3{font-size:25px;
 margin-left:auto;
@@ -297,6 +301,16 @@ content-align:center;
 text-align:center;
 color:$gray;
 text-transform:uppercase;}
+
+h4{
+	padding-top:5px;
+	font-size:20px;}
+
+h5{color:$gray;
+padding-top:5px;
+padding-bottom:5px;}
+
+.desktop{display:none;}
 
 .header-photo{margin-top:15px;
 margin-left:-10px;}
@@ -309,9 +323,27 @@ margin-left:-10px;}
 
 
  @media screen and (min-width: $break-medium) {
+.desktop{display:block;}
+.mobile-only{display:none;}
+.header-photo{margin-left:-10px;}
+.subheader-info{
+	width:100%;
+	font-size:24px;
+	padding-top:10px;
+}
 
-  .desktop{display:block;}
-  .mobile-only{display:none;}
+.main-side-navigation{text-align:right;}
+
+
+h3{font-size:25px;
+margin-left:auto;
+margin-right:auto;
+content-align:center;
+text-align:center;
+color:$gray;
+text-transform:uppercase;}
+
+h4{text-transform:uppercase;}
 
 }
 
@@ -327,6 +359,33 @@ margin-left:-10px;}
  				li{width:100%;}
    
   }
+
+
+ .desktop{display:block;}
+
+
+
+h3{font-size:25px;
+margin-left:auto;
+margin-right:auto;
+content-align:center;
+text-align:center;
+color:$gray;
+text-transform:uppercase;}
+
+h4{
+	padding-top:5px;
+	font-size:20px;}
+
+h5{color:$gray;
+padding-top:5px;
+padding-bottom:5px;}
+
+
+.header-photo{margin-top:15px;
+margin-left:-10px;}
+
+
 
 
    
