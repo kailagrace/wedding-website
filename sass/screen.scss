@@ -225,6 +225,21 @@ font-weight:$light-font;}
 
 //----------------CONTENT PAGE STYLES-------------------//
 
+.inner-column-left{width:45%;
+float:left;}
+
+.inner-column-right{float:right;
+width:45%;}
+
+.aligned-content{text-align:left;}
+
+.photos img{content-align:center;
+width:400px;
+float:left;}
+
+.photos p{float:right;
+width:40%;}
+
 //------------IMAGES----------------//
 h1 .header-photo{margin-bottom:-50px;}
 
@@ -336,10 +351,6 @@ margin-left:-10px;}
 
 
 h3{font-size:25px;
-margin-left:auto;
-margin-right:auto;
-content-align:center;
-text-align:center;
 color:$gray;
 text-transform:uppercase;}
 
