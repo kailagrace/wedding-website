@@ -48,7 +48,7 @@ $light-font:light;
 $full-size:100%;
 
 
-
+$padding-less:5px 5px 5px 5px;
 //----------------UNIVERSAL STYLES-------------------//
 
 
@@ -78,7 +78,7 @@ body, h1, h2, h3, h4, p {font-family:$Quicksand-font;
 						
 						}
 
-
+h1, h2, h3, h4, p{padding:$padding-less;}
 
 
 body{background:inherit;
@@ -88,7 +88,8 @@ font-family:$Quicksand-font;}
 h1{}
 
 h2{
-color:#223161;}
+color:white;
+font-size:36px;}
 
 h3{font-size:18px;
 text-transform:uppercase;}
@@ -240,6 +241,8 @@ float:left;}
 .photos p{float:right;
 width:40%;}
 
+.float-left{float:left;}
+
 //------------IMAGES----------------//
 h1 .header-photo{margin-bottom:-50px;}
 
@@ -284,6 +287,10 @@ display:flex;}
 .hold-canvas .inner-wrap{
   height: 100%;
 }
+
+.flex-video{max-width:250px;
+		max-height:250px;
+		align-content: center;}
 
 
 //------EDITS FOR OFF-CANVAS MENU------//
