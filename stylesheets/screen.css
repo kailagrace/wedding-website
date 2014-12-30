@@ -346,7 +346,7 @@ h1 .header-photo {
 
 /* line 271, ../sass/screen.scss */
 .tan-section {
-  background-color: #e3e3dd;
+  background-color: #ffffff;
   text-wrap: normal;
 }
 
@@ -562,30 +562,35 @@ h1 .header-photo {
   footer .row p {
     color: #ffffff;
   }
+
+  /* line 417, ../sass/screen.scss */
+  .section-content .row {
+    background-color: #e3e3dd;
+  }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  /* line 424, ../sass/screen.scss */
+  /* line 427, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 426, ../sass/screen.scss */
+  /* line 429, ../sass/screen.scss */
   body {
     background-color: #ffffff;
   }
 
-  /* line 428, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 430, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
     text-align: center;
   }
 
-  /* line 434, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     font-size: #223161;
@@ -593,33 +598,33 @@ h1 .header-photo {
     height: 100%;
   }
 
-  /* line 440, ../sass/screen.scss */
+  /* line 443, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 446, ../sass/screen.scss */
+  /* line 449, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 451, ../sass/screen.scss */
+  /* line 454, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 
-  /* line 457, ../sass/screen.scss */
+  /* line 460, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 458, ../sass/screen.scss */
+  /* line 461, ../sass/screen.scss */
   .mobile-only {
     display: block;
   }
 
-  /* line 460, ../sass/screen.scss */
+  /* line 463, ../sass/screen.scss */
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -627,7 +632,7 @@ h1 .header-photo {
     text-align: center;
   }
 
-  /* line 465, ../sass/screen.scss */
+  /* line 468, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -638,13 +643,13 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 473, ../sass/screen.scss */
+  /* line 476, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 477, ../sass/screen.scss */
+  /* line 480, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;

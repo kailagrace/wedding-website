@@ -268,7 +268,7 @@ font-size:30px;}
 color:$dark-blue;}
 
 
-.tan-section{background-color:$tan;
+.tan-section{background-color:$white;
 text-wrap:normal;}
 
 .tan-section img{content-align:center;
@@ -413,6 +413,9 @@ height:100%;}
 margin-top:20px;}
 
 footer .row p{color:$white;}
+
+.section-content .row{
+	background-color:$tan;}
 
 }
 
