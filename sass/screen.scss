@@ -376,6 +376,12 @@ padding-bottom:5px;}
 					margin-left:-60px;}
 
 .subheader-info h1, .subheader-info h2{color:$dark-blue;}
+
+
+.wedding-party-photo{
+width:300px;}
+.wp-content{display:inherit;}
+
 }
 
 
@@ -408,6 +414,9 @@ h4{text-transform:uppercase;}
 
 }
 
+.wedding-party-photo{max-width:300px;
+width:300px;}
+.wp-content{display:inline-block;}
 
 
 body{background-color:$dark-blue;
@@ -513,5 +522,10 @@ padding-bottom:5px;}
 
 
 
+  @media screen and (min-width:400px) and (max-width: 600px) {
+
+.wp-content{display:block;}
+
+  }
 
 

@@ -525,115 +525,136 @@ h1 .header-photo {
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
   }
+
+  /* line 381, ../sass/screen.scss */
+  .wedding-party-photo {
+    width: 300px;
+  }
+
+  /* line 383, ../sass/screen.scss */
+  .wp-content {
+    display: inherit;
+  }
 }
 @media screen and (min-width: 600px) {
-  /* line 385, ../sass/screen.scss */
+  /* line 391, ../sass/screen.scss */
   .desktop {
     display: block;
   }
 
-  /* line 386, ../sass/screen.scss */
+  /* line 392, ../sass/screen.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 389, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   .subheader-info {
     width: 100%;
     font-size: 24px;
     padding-top: 10px;
   }
 
-  /* line 395, ../sass/screen.scss */
+  /* line 401, ../sass/screen.scss */
   .main-side-navigation {
     text-align: right;
   }
 
-  /* line 398, ../sass/screen.scss */
+  /* line 404, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     color: #a8a8a9;
     text-transform: uppercase;
   }
 
-  /* line 402, ../sass/screen.scss */
+  /* line 408, ../sass/screen.scss */
   h4 {
     text-transform: uppercase;
   }
 
-  /* line 405, ../sass/screen.scss */
+  /* line 411, ../sass/screen.scss */
   .subheader-info h2 {
     margin-left: 40px;
     font-size: 32px;
   }
 
-  /* line 413, ../sass/screen.scss */
+  /* line 417, ../sass/screen.scss */
+  .wedding-party-photo {
+    max-width: 300px;
+    width: 300px;
+  }
+
+  /* line 419, ../sass/screen.scss */
+  .wp-content {
+    display: inline-block;
+  }
+
+  /* line 422, ../sass/screen.scss */
   body {
     background-color: #223161;
     color: #ffffff;
   }
 
-  /* line 416, ../sass/screen.scss */
+  /* line 425, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #ffffff;
   }
 
-  /* line 418, ../sass/screen.scss */
+  /* line 427, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #ffffff;
   }
 
-  /* line 422, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     width: 100%;
     height: 100%;
   }
 
-  /* line 428, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
   .subheader-info h1 {
     font-size: 90px;
   }
 
-  /* line 431, ../sass/screen.scss */
+  /* line 440, ../sass/screen.scss */
   .subheader-info {
     font-size: 50px;
     margin-top: 20px;
   }
 
-  /* line 434, ../sass/screen.scss */
+  /* line 443, ../sass/screen.scss */
   footer .row p {
     color: #ffffff;
   }
 
-  /* line 436, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  /* line 446, ../sass/screen.scss */
+  /* line 455, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 448, ../sass/screen.scss */
+  /* line 457, ../sass/screen.scss */
   body {
     background-color: #ffffff;
   }
 
-  /* line 450, ../sass/screen.scss */
+  /* line 459, ../sass/screen.scss */
   .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 452, ../sass/screen.scss */
+  /* line 461, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
     text-align: center;
   }
 
-  /* line 456, ../sass/screen.scss */
+  /* line 465, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     font-size: #223161;
@@ -641,44 +662,44 @@ h1 .header-photo {
     height: 100%;
   }
 
-  /* line 462, ../sass/screen.scss */
+  /* line 471, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 466, ../sass/screen.scss */
+  /* line 475, ../sass/screen.scss */
   .tan-section {
     background-color: #e3e3dd;
     text-wrap: normal;
   }
 
-  /* line 469, ../sass/screen.scss */
+  /* line 478, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 
-  /* line 472, ../sass/screen.scss */
+  /* line 481, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 477, ../sass/screen.scss */
+  /* line 486, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 
-  /* line 483, ../sass/screen.scss */
+  /* line 492, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 484, ../sass/screen.scss */
+  /* line 493, ../sass/screen.scss */
   .mobile-only {
     display: block;
   }
 
-  /* line 486, ../sass/screen.scss */
+  /* line 495, ../sass/screen.scss */
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -686,7 +707,7 @@ h1 .header-photo {
     text-align: center;
   }
 
-  /* line 491, ../sass/screen.scss */
+  /* line 500, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -697,16 +718,22 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 499, ../sass/screen.scss */
+  /* line 508, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 503, ../sass/screen.scss */
+  /* line 512, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  /* line 527, ../sass/screen.scss */
+  .wp-content {
+    display: block;
   }
 }
