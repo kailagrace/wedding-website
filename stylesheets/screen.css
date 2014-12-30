@@ -431,7 +431,13 @@ h1 .header-photo {
     font-size: 18px;
   }
 
-  /* line 329, ../sass/screen.scss */
+  /* line 327, ../sass/screen.scss */
+  .tan-section {
+    background-color: #e3e3dd;
+    text-wrap: normal;
+  }
+
+  /* line 330, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -442,155 +448,160 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 337, ../sass/screen.scss */
+  /* line 338, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 341, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
     padding-bottom: 5px;
   }
 
-  /* line 345, ../sass/screen.scss */
+  /* line 346, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 347, ../sass/screen.scss */
+  /* line 348, ../sass/screen.scss */
   .subheader-info {
     float: left;
   }
 
   /* line 350, ../sass/screen.scss */
+  .section-content .row {
+    background-color: #e3e3dd;
+  }
+
+  /* line 353, ../sass/screen.scss */
   .subheader-info h2 {
     font-size: 30px;
     margin-left: -40px;
   }
 
-  /* line 355, ../sass/screen.scss */
+  /* line 358, ../sass/screen.scss */
   .subheader-info h1 {
     margin-top: 100px;
     font-size: 50px;
     margin-left: -60px;
   }
 
-  /* line 359, ../sass/screen.scss */
+  /* line 362, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 366, ../sass/screen.scss */
+  /* line 369, ../sass/screen.scss */
   .desktop {
     display: block;
   }
 
-  /* line 367, ../sass/screen.scss */
+  /* line 370, ../sass/screen.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 370, ../sass/screen.scss */
+  /* line 373, ../sass/screen.scss */
   .subheader-info {
     width: 100%;
     font-size: 24px;
     padding-top: 10px;
   }
 
-  /* line 376, ../sass/screen.scss */
+  /* line 379, ../sass/screen.scss */
   .main-side-navigation {
     text-align: right;
   }
 
-  /* line 379, ../sass/screen.scss */
+  /* line 382, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     color: #a8a8a9;
     text-transform: uppercase;
   }
 
-  /* line 383, ../sass/screen.scss */
+  /* line 386, ../sass/screen.scss */
   h4 {
     text-transform: uppercase;
   }
 
-  /* line 386, ../sass/screen.scss */
+  /* line 389, ../sass/screen.scss */
   .subheader-info h2 {
     margin-left: 40px;
     font-size: 32px;
   }
 
-  /* line 394, ../sass/screen.scss */
+  /* line 397, ../sass/screen.scss */
   body {
     background-color: #223161;
     color: #ffffff;
   }
 
-  /* line 397, ../sass/screen.scss */
+  /* line 400, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #ffffff;
   }
 
-  /* line 399, ../sass/screen.scss */
+  /* line 402, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #ffffff;
   }
 
-  /* line 403, ../sass/screen.scss */
+  /* line 406, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     width: 100%;
     height: 100%;
   }
 
-  /* line 409, ../sass/screen.scss */
+  /* line 412, ../sass/screen.scss */
   .subheader-info h1 {
     font-size: 90px;
   }
 
-  /* line 412, ../sass/screen.scss */
+  /* line 415, ../sass/screen.scss */
   .subheader-info {
     font-size: 50px;
     margin-top: 20px;
   }
 
-  /* line 415, ../sass/screen.scss */
+  /* line 418, ../sass/screen.scss */
   footer .row p {
     color: #ffffff;
   }
 
-  /* line 417, ../sass/screen.scss */
+  /* line 420, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  /* line 427, ../sass/screen.scss */
+  /* line 430, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 429, ../sass/screen.scss */
+  /* line 432, ../sass/screen.scss */
   body {
     background-color: #ffffff;
   }
 
-  /* line 431, ../sass/screen.scss */
+  /* line 434, ../sass/screen.scss */
   .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 433, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
     text-align: center;
   }
 
-  /* line 437, ../sass/screen.scss */
+  /* line 440, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     font-size: #223161;
@@ -598,33 +609,44 @@ h1 .header-photo {
     height: 100%;
   }
 
-  /* line 443, ../sass/screen.scss */
+  /* line 446, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 449, ../sass/screen.scss */
+  /* line 450, ../sass/screen.scss */
+  .tan-section {
+    background-color: #e3e3dd;
+    text-wrap: normal;
+  }
+
+  /* line 453, ../sass/screen.scss */
+  .section-content .row {
+    background-color: #e3e3dd;
+  }
+
+  /* line 456, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 454, ../sass/screen.scss */
+  /* line 461, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 
-  /* line 460, ../sass/screen.scss */
+  /* line 467, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 461, ../sass/screen.scss */
+  /* line 468, ../sass/screen.scss */
   .mobile-only {
     display: block;
   }
 
-  /* line 463, ../sass/screen.scss */
+  /* line 470, ../sass/screen.scss */
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -632,7 +654,7 @@ h1 .header-photo {
     text-align: center;
   }
 
-  /* line 468, ../sass/screen.scss */
+  /* line 475, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -643,13 +665,13 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 476, ../sass/screen.scss */
+  /* line 483, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 480, ../sass/screen.scss */
+  /* line 487, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
