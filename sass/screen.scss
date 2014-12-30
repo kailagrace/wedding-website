@@ -36,7 +36,8 @@ $secondary-blue-light:#4494b7;
 //----------------FONT TYPE SECTION--------------------//
 
 $Quicksand-font:'Quicksand', sans-serif;
-
+$Tamarillo-font: 'Tamarillo', sans-serif;
+$Marayam-font: 'Marayam Alternate';
 
 
 //----------------FONT WEIGHT SECTION--------------------//
@@ -260,7 +261,7 @@ font-size:30px;}
 
 
 .main-side-navigation{text-align:left;
-color:#223161;}
+color:$dark-blue;}
 
 
 .tan-section{background-color:$tan;
@@ -275,7 +276,7 @@ display:flex;}
 
 
 .side-nav li a:not(.button){
-	color:#223161;
+	color:$dark-blue;
 	}
 
 .side-nav li a:not(.button):hover{
@@ -377,13 +378,36 @@ h4{text-transform:uppercase;}
 
 }
 
+.subheader-info h1{font-family:'Tamarillo', sans-serif;}
+
+body{background-color:$dark-blue;
+color:$white;}
+
+.subheader-info h1, .subheader-info h2{color:$white;}
+
+.side-nav li a:not(.button){
+	color:$white;
+	}
+
+
 }
 
+//------ Desktop ------//
 
 
   @media screen and (min-width:$break-medium) and (max-width: $break-large-min) {
 
 	html .background-image-one{background-image:$image-background-one;}
+
+	body{background-color:$white;}
+	
+	.subheader-info h2{color:$white;}
+		h1 .header-photo{color:$white;}
+
+.side-nav li a:not(.button){
+	color:$dark-blue;
+	}
+.header-photo{color:$white;}
 
  	.navigation-section{
  				position:relative;
