@@ -57,7 +57,7 @@ $padding-less:5px 5px 5px 5px;
 
 
 html, body, .off-canvas-wrap, .inner-wrap, .main-section
-{
+{	width:100%;
   height: 100%;
 }
 
@@ -213,6 +213,7 @@ max-width:600px;
 					position:relative;
 					top:400px;
 					width:$full-size;
+					font-weight: 300;
 
 
 
@@ -227,11 +228,12 @@ max-width:600px;
 
 
 
-.home-page {height:100%;}
+.home-page {height:100%;
+			min-height:100%;}
 
 
 #index-nav{	
-			top:500px;
+			top:300px;
 
 			a{color:$white;}
 		}
@@ -333,7 +335,7 @@ padding-right:2px;}
 
  	.navigation-section{
  	position:relative;
- 	top:80%;
+ 	top:75%;
 
 	li{width:100%;
 		font-size:18px;}

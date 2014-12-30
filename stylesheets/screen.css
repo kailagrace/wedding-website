@@ -69,6 +69,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 59, ../sass/screen.scss */
 html, body, .off-canvas-wrap, .inner-wrap, .main-section {
+  width: 100%;
   height: 100%;
 }
 
@@ -273,8 +274,9 @@ p .image-caption {
   position: relative;
   top: 400px;
   width: 100%;
+  font-weight: 300;
 }
-/* line 219, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 .navigation-section li {
   text-shadow: -1px 2px 10px #223161;
   padding-left: 15px;
@@ -282,221 +284,222 @@ p .image-caption {
   float: left;
 }
 
-/* line 230, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .home-page {
   height: 100%;
+  min-height: 100%;
 }
 
-/* line 233, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #index-nav {
-  top: 500px;
+  top: 300px;
 }
-/* line 236, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 #index-nav a {
   color: #ffffff;
 }
 
-/* line 242, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 .header {
   background-color: #223161;
   color: white;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .inner-column-left {
   width: 45%;
   float: left;
 }
 
-/* line 248, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .inner-column-right {
   float: right;
   width: 45%;
 }
 
-/* line 251, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .aligned-content {
   text-align: left;
 }
 
-/* line 253, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .photos img {
   max-width: 400px;
   width: 100%;
 }
 
-/* line 255, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .photos img .wedding-party-photo {
   content-align: center;
   width: 400px;
   float: left;
 }
 
-/* line 259, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .photos p {
   float: right;
   width: 50%;
 }
 
-/* line 262, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .float-left {
   float: left;
   margin-left: 10px;
 }
 
-/* line 266, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 .subheader-info h2 {
   color: #223161;
 }
 
-/* line 268, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 h1 .header-photo {
   margin-bottom: -50px;
 }
 
-/* line 270, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 .wedding-party-photo {
   width: 200px;
   float: left;
 }
 
-/* line 273, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 .subheader-info {
   margin-top: -50px;
   padding-bottom: 10px;
   font-size: 30px;
 }
 
-/* line 278, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .main-side-navigation {
   text-align: left;
   color: #223161;
 }
 
-/* line 282, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 .tan-section {
   background-color: #ffffff;
   text-wrap: normal;
 }
 
-/* line 285, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .tan-section img {
   content-align: center;
   display: flex;
 }
 
-/* line 288, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .map-edit {
   margin-left: 10px;
   color: #223161;
 }
 
-/* line 291, ../sass/screen.scss */
+/* line 293, ../sass/screen.scss */
 .section-content .row .row {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 294, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 .section-content {
   padding: 10px 10px 10px 10px;
 }
 
-/* line 295, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .section-content img {
   padding: 5px 5px 5px 5px;
 }
 
-/* line 298, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .side-nav li a:not(.button) {
   color: #223161;
 }
 
-/* line 302, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .side-nav li a:not(.button):hover {
   color: rgba(34, 49, 98, 0.8);
 }
 
-/* line 305, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 .side-nav {
   font-family: 'Quicksand', sans-serif;
 }
 
-/* line 307, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 .home-page {
   height: 100%;
 }
 
-/* line 310, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 .hold-canvas {
   height: 100%;
 }
 
-/* line 313, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .hold-canvas .inner-wrap {
   height: 100%;
 }
 
-/* line 317, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .flex-video {
   max-width: 250px;
   max-height: 250px;
   align-content: center;
 }
 
-/* line 324, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .mobile-only {
   background-color: #223161;
 }
 
-/* line 326, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 .left-small {
   border: none;
   padding-right: 2px;
 }
 
 @media screen and (max-width: 600px) {
-  /* line 332, ../sass/screen.scss */
+  /* line 334, ../sass/screen.scss */
   html .background-image {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 334, ../sass/screen.scss */
+  /* line 336, ../sass/screen.scss */
   .navigation-section {
     position: relative;
-    top: 80%;
+    top: 75%;
   }
-  /* line 338, ../sass/screen.scss */
+  /* line 340, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
     font-size: 18px;
   }
 
-  /* line 344, ../sass/screen.scss */
+  /* line 346, ../sass/screen.scss */
   .inner-column-left {
     width: 100%;
     float: left;
   }
 
-  /* line 347, ../sass/screen.scss */
+  /* line 349, ../sass/screen.scss */
   .inner-column-right {
     float: right;
     width: 100%;
   }
 
-  /* line 350, ../sass/screen.scss */
+  /* line 352, ../sass/screen.scss */
   .photos p {
     float: right;
     width: 100%;
   }
 
-  /* line 353, ../sass/screen.scss */
+  /* line 355, ../sass/screen.scss */
   .tan-section {
     background-color: #e3e3dd;
     text-wrap: normal;
   }
 
-  /* line 356, ../sass/screen.scss */
+  /* line 358, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -507,182 +510,182 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 364, ../sass/screen.scss */
+  /* line 366, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 368, ../sass/screen.scss */
+  /* line 370, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
     padding-bottom: 5px;
   }
 
-  /* line 372, ../sass/screen.scss */
+  /* line 374, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 374, ../sass/screen.scss */
+  /* line 376, ../sass/screen.scss */
   .subheader-info {
     float: left;
   }
 
-  /* line 376, ../sass/screen.scss */
+  /* line 378, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 
-  /* line 379, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   .subheader-info h2 {
     font-size: 30px;
     margin-left: -40px;
   }
 
-  /* line 384, ../sass/screen.scss */
+  /* line 386, ../sass/screen.scss */
   .subheader-info h1 {
     margin-top: 100px;
     font-size: 50px;
     margin-left: -60px;
   }
 
-  /* line 388, ../sass/screen.scss */
+  /* line 390, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 391, ../sass/screen.scss */
+  /* line 393, ../sass/screen.scss */
   .wedding-party-photo {
     width: 300px;
   }
 
-  /* line 393, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   .wp-content {
     display: inherit;
   }
 }
 @media screen and (min-width: 600px) {
-  /* line 401, ../sass/screen.scss */
+  /* line 403, ../sass/screen.scss */
   .desktop {
     display: block;
   }
 
-  /* line 402, ../sass/screen.scss */
+  /* line 404, ../sass/screen.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 405, ../sass/screen.scss */
+  /* line 407, ../sass/screen.scss */
   .subheader-info {
     width: 100%;
     font-size: 24px;
     padding-top: 10px;
   }
 
-  /* line 411, ../sass/screen.scss */
+  /* line 413, ../sass/screen.scss */
   .main-side-navigation {
     text-align: right;
   }
 
-  /* line 414, ../sass/screen.scss */
+  /* line 416, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     color: #a8a8a9;
     text-transform: uppercase;
   }
 
-  /* line 418, ../sass/screen.scss */
+  /* line 420, ../sass/screen.scss */
   h4 {
     text-transform: uppercase;
   }
 
-  /* line 421, ../sass/screen.scss */
+  /* line 423, ../sass/screen.scss */
   .subheader-info h2 {
     margin-left: 40px;
     font-size: 32px;
   }
 
-  /* line 427, ../sass/screen.scss */
+  /* line 429, ../sass/screen.scss */
   .wedding-party-photo {
     max-width: 300px;
     width: 300px;
   }
 
-  /* line 429, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   .wp-content {
     display: inline-block;
   }
 
-  /* line 432, ../sass/screen.scss */
+  /* line 434, ../sass/screen.scss */
   body {
     background-color: #223161;
     color: #ffffff;
   }
 
-  /* line 435, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #ffffff;
   }
 
-  /* line 437, ../sass/screen.scss */
+  /* line 439, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #ffffff;
   }
 
-  /* line 441, ../sass/screen.scss */
+  /* line 443, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     width: 100%;
     height: 100%;
   }
 
-  /* line 447, ../sass/screen.scss */
+  /* line 449, ../sass/screen.scss */
   .subheader-info h1 {
     font-size: 90px;
   }
 
-  /* line 450, ../sass/screen.scss */
+  /* line 452, ../sass/screen.scss */
   .subheader-info {
     font-size: 50px;
     margin-top: 20px;
   }
 
-  /* line 453, ../sass/screen.scss */
+  /* line 455, ../sass/screen.scss */
   footer .row p {
     color: #ffffff;
   }
 
-  /* line 455, ../sass/screen.scss */
+  /* line 457, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
     padding: 5px 5px 5px 5px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  /* line 466, ../sass/screen.scss */
+  /* line 468, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 468, ../sass/screen.scss */
+  /* line 470, ../sass/screen.scss */
   body {
     background-color: #ffffff;
   }
 
-  /* line 470, ../sass/screen.scss */
+  /* line 472, ../sass/screen.scss */
   .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 472, ../sass/screen.scss */
+  /* line 474, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
     text-align: center;
   }
 
-  /* line 476, ../sass/screen.scss */
+  /* line 478, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     font-size: #223161;
@@ -690,44 +693,44 @@ h1 .header-photo {
     height: 100%;
   }
 
-  /* line 482, ../sass/screen.scss */
+  /* line 484, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 486, ../sass/screen.scss */
+  /* line 488, ../sass/screen.scss */
   .tan-section {
     background-color: #e3e3dd;
     text-wrap: normal;
   }
 
-  /* line 489, ../sass/screen.scss */
+  /* line 491, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 
-  /* line 492, ../sass/screen.scss */
+  /* line 494, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 497, ../sass/screen.scss */
+  /* line 499, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 
-  /* line 503, ../sass/screen.scss */
+  /* line 505, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 504, ../sass/screen.scss */
+  /* line 506, ../sass/screen.scss */
   .mobile-only {
     display: block;
   }
 
-  /* line 506, ../sass/screen.scss */
+  /* line 508, ../sass/screen.scss */
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -735,7 +738,7 @@ h1 .header-photo {
     text-align: center;
   }
 
-  /* line 511, ../sass/screen.scss */
+  /* line 513, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -746,13 +749,13 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 519, ../sass/screen.scss */
+  /* line 521, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 523, ../sass/screen.scss */
+  /* line 525, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
@@ -760,56 +763,56 @@ h1 .header-photo {
   }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  /* line 538, ../sass/screen.scss */
+  /* line 540, ../sass/screen.scss */
   .wp-content {
     display: block;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1135px) {
-  /* line 546, ../sass/screen.scss */
+  /* line 548, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 551, ../sass/screen.scss */
+  /* line 553, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1024px) {
-  /* line 557, ../sass/screen.scss */
+  /* line 559, ../sass/screen.scss */
   .wp-content {
     display: block;
   }
 
-  /* line 558, ../sass/screen.scss */
+  /* line 560, ../sass/screen.scss */
   .wedding-party-photo {
     width: 200px;
   }
 
-  /* line 560, ../sass/screen.scss */
+  /* line 562, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 562, ../sass/screen.scss */
+  /* line 564, ../sass/screen.scss */
   body {
     background-color: #ffffff;
   }
 
-  /* line 564, ../sass/screen.scss */
+  /* line 566, ../sass/screen.scss */
   .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 566, ../sass/screen.scss */
+  /* line 568, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
     text-align: center;
   }
 
-  /* line 570, ../sass/screen.scss */
+  /* line 572, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     font-size: #223161;
@@ -817,29 +820,29 @@ h1 .header-photo {
     height: 100%;
   }
 
-  /* line 576, ../sass/screen.scss */
+  /* line 578, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 580, ../sass/screen.scss */
+  /* line 582, ../sass/screen.scss */
   .tan-section {
     background-color: #e3e3dd;
     text-wrap: normal;
   }
 
-  /* line 583, ../sass/screen.scss */
+  /* line 585, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 
-  /* line 586, ../sass/screen.scss */
+  /* line 588, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 591, ../sass/screen.scss */
+  /* line 593, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
