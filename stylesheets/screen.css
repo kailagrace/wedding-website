@@ -657,31 +657,32 @@ h1 .header-photo {
   /* line 455, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
+    padding: 5px 5px 5px 5px;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
-  /* line 465, ../sass/screen.scss */
+  /* line 466, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 467, ../sass/screen.scss */
+  /* line 468, ../sass/screen.scss */
   body {
     background-color: #ffffff;
   }
 
-  /* line 469, ../sass/screen.scss */
+  /* line 470, ../sass/screen.scss */
   .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 471, ../sass/screen.scss */
+  /* line 472, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
     text-align: center;
   }
 
-  /* line 475, ../sass/screen.scss */
+  /* line 476, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     font-size: #223161;
@@ -689,44 +690,44 @@ h1 .header-photo {
     height: 100%;
   }
 
-  /* line 481, ../sass/screen.scss */
+  /* line 482, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 485, ../sass/screen.scss */
+  /* line 486, ../sass/screen.scss */
   .tan-section {
     background-color: #e3e3dd;
     text-wrap: normal;
   }
 
-  /* line 488, ../sass/screen.scss */
+  /* line 489, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 
-  /* line 491, ../sass/screen.scss */
+  /* line 492, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 496, ../sass/screen.scss */
+  /* line 497, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 
-  /* line 502, ../sass/screen.scss */
+  /* line 503, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 503, ../sass/screen.scss */
+  /* line 504, ../sass/screen.scss */
   .mobile-only {
     display: block;
   }
 
-  /* line 505, ../sass/screen.scss */
+  /* line 506, ../sass/screen.scss */
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -734,7 +735,7 @@ h1 .header-photo {
     text-align: center;
   }
 
-  /* line 510, ../sass/screen.scss */
+  /* line 511, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -745,13 +746,13 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 518, ../sass/screen.scss */
+  /* line 519, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 522, ../sass/screen.scss */
+  /* line 523, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
@@ -759,56 +760,56 @@ h1 .header-photo {
   }
 }
 @media screen and (min-width: 400px) and (max-width: 600px) {
-  /* line 537, ../sass/screen.scss */
+  /* line 538, ../sass/screen.scss */
   .wp-content {
     display: block;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1135px) {
-  /* line 545, ../sass/screen.scss */
+  /* line 546, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 550, ../sass/screen.scss */
+  /* line 551, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 }
 @media screen and (min-width: 850px) and (max-width: 1024px) {
-  /* line 556, ../sass/screen.scss */
+  /* line 557, ../sass/screen.scss */
   .wp-content {
     display: block;
   }
 
-  /* line 557, ../sass/screen.scss */
+  /* line 558, ../sass/screen.scss */
   .wedding-party-photo {
     width: 200px;
   }
 
-  /* line 559, ../sass/screen.scss */
+  /* line 560, ../sass/screen.scss */
   html .background-image-one {
     background-image: url("../img/b+k.jpg");
   }
 
-  /* line 561, ../sass/screen.scss */
+  /* line 562, ../sass/screen.scss */
   body {
     background-color: #ffffff;
   }
 
-  /* line 563, ../sass/screen.scss */
+  /* line 564, ../sass/screen.scss */
   .subheader-info h2 {
     color: #223161;
   }
 
-  /* line 565, ../sass/screen.scss */
+  /* line 566, ../sass/screen.scss */
   .subheader-info h1, .subheader-info h2 {
     color: #223161;
     text-align: center;
   }
 
-  /* line 569, ../sass/screen.scss */
+  /* line 570, ../sass/screen.scss */
   .tk-tamarillo {
     font-size: 50px;
     font-size: #223161;
@@ -816,29 +817,29 @@ h1 .header-photo {
     height: 100%;
   }
 
-  /* line 575, ../sass/screen.scss */
+  /* line 576, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 579, ../sass/screen.scss */
+  /* line 580, ../sass/screen.scss */
   .tan-section {
     background-color: #e3e3dd;
     text-wrap: normal;
   }
 
-  /* line 582, ../sass/screen.scss */
+  /* line 583, ../sass/screen.scss */
   .section-content .row {
     background-color: #e3e3dd;
   }
 
-  /* line 585, ../sass/screen.scss */
+  /* line 586, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 590, ../sass/screen.scss */
+  /* line 591, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
