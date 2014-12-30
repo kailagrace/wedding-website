@@ -552,38 +552,43 @@ h1 .header-photo {
     font-size: 25px;
   }
 
-  /* line 411, ../sass/screen.scss */
+  /* line 412, ../sass/screen.scss */
+  .subheader-info h1 {
+    font-size: 50px;
+  }
+
+  /* line 414, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 414, ../sass/screen.scss */
+  /* line 417, ../sass/screen.scss */
   .header-photo {
     color: #ffffff;
   }
 
-  /* line 416, ../sass/screen.scss */
+  /* line 419, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 421, ../sass/screen.scss */
+  /* line 424, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 
-  /* line 426, ../sass/screen.scss */
+  /* line 429, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 427, ../sass/screen.scss */
+  /* line 430, ../sass/screen.scss */
   .mobile-only {
     display: block;
   }
 
-  /* line 429, ../sass/screen.scss */
+  /* line 432, ../sass/screen.scss */
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -591,7 +596,7 @@ h1 .header-photo {
     text-align: center;
   }
 
-  /* line 434, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -602,20 +607,20 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 442, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 446, ../sass/screen.scss */
+  /* line 449, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
     padding-bottom: 5px;
   }
 
-  /* line 452, ../sass/screen.scss */
+  /* line 455, ../sass/screen.scss */
   .header-photo {
     width: 50%;
     margin-left: auto;
