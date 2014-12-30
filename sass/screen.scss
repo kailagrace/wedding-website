@@ -86,10 +86,9 @@ h1, h2, h3, h4, p{padding:$padding-less;}
 
 
 body{background:inherit;
-font-family:$Quicksand-font;}
+font-family:$Quicksand-font;
+font-weight:100;}
 
-
-h1{}
 
 h2{
 color:$dark-blue;
@@ -323,6 +322,16 @@ padding-right:2px;}
 		font-size:18px;}
    
   }
+
+
+.inner-column-left{width:100%;
+float:left;}
+
+.inner-column-right{float:right;
+width:100%;}
+
+.photos p{float:right;
+width:100%;}
 
 .tan-section{background-color:$tan;
 text-wrap:normal;}
