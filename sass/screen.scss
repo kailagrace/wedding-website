@@ -123,6 +123,13 @@ font-weight:$light-font;}
 .subheader-info h1{font-family:'Tamarillo', sans-serif;}
 
 
+.image-caption-section p{width:100%;}
+p .image-caption{width:100%;}
+#lavender{width:100%;;
+max-width:600px;
+}
+.image-caption-section .photos p{width:100%;}
+
 //----------------INDEX.HTML STYLES-------------------//
 
 
@@ -243,12 +250,14 @@ width:45%;}
 
 .aligned-content{text-align:left;}
 
-.photos img{content-align:center;
+.photos img{max-width:400px;
+width:100%;}
+.photos img .wedding-party-photo{content-align:center;
 width:400px;
 float:left;}
 
-.photos p{float:right;
-width:40%;}
+.photos p {float:right;
+width:50%;}
 
 .float-left{float:left;
 margin-left:10px;}
@@ -581,7 +590,6 @@ text-wrap:normal;}
  				li{width:100%;}
    
   }
-
 
 
   }
