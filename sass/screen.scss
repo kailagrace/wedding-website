@@ -529,3 +529,17 @@ padding-bottom:5px;}
   }
 
 
+
+  @media screen and (min-width:$break-large-min) and (max-width: 1135px) {
+
+  	.navigation-section{
+ 				position:relative;
+ 				top:210px;
+ 				font-size:19px;
+
+ 				li{width:100%;}
+   
+  }
+
+
+  }

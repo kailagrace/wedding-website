@@ -737,3 +737,15 @@ h1 .header-photo {
     display: block;
   }
 }
+@media screen and (min-width: 1024px) and (max-width: 1135px) {
+  /* line 535, ../sass/screen.scss */
+  .navigation-section {
+    position: relative;
+    top: 210px;
+    font-size: 19px;
+  }
+  /* line 540, ../sass/screen.scss */
+  .navigation-section li {
+    width: 100%;
+  }
+}
