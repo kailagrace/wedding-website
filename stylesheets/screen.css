@@ -346,7 +346,7 @@ h1 .header-photo {
 
 /* line 271, ../sass/screen.scss */
 .tan-section {
-  background-color: #ffffff;
+  background-color: #e3e3dd;
   text-wrap: normal;
 }
 
@@ -565,7 +565,7 @@ h1 .header-photo {
 
   /* line 417, ../sass/screen.scss */
   .section-content .row {
-    background-color: #e3e3dd;
+    background-color: #ffffff;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
