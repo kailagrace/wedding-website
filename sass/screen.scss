@@ -249,7 +249,9 @@ float:left;}
 .photos p{float:right;
 width:40%;}
 
-.float-left{float:left;}
+.float-left{float:left;
+margin-left:10px;}
+
 
 .subheader-info h2{color:$dark-blue;}
 //------------IMAGES----------------//
@@ -273,7 +275,8 @@ text-wrap:normal;}
 .tan-section img{content-align:center;
 display:flex;}
 
-.map-edit{margin-left:10px;}
+.map-edit{margin-left:10px;
+color:$dark-blue;}
 
 .section-content .row .row{margin-left:auto;
 margin-right:auto;}
