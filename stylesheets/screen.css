@@ -557,38 +557,48 @@ h1 .header-photo {
     font-size: 50px;
   }
 
-  /* line 414, ../sass/screen.scss */
+  /* line 413, ../sass/screen.scss */
+  .subheader-info {
+    font-size: 50px;
+  }
+
+  /* line 415, ../sass/screen.scss */
   .side-nav li a:not(.button) {
     color: #223161;
   }
 
-  /* line 418, ../sass/screen.scss */
+  /* line 419, ../sass/screen.scss */
+  .tk-tamarillo {
+    font-size: 50px;
+  }
+
+  /* line 421, ../sass/screen.scss */
   .header-photo {
     color: #ffffff;
   }
 
-  /* line 420, ../sass/screen.scss */
+  /* line 423, ../sass/screen.scss */
   .navigation-section {
     position: relative;
     top: 210px;
     font-size: 19px;
   }
-  /* line 425, ../sass/screen.scss */
+  /* line 428, ../sass/screen.scss */
   .navigation-section li {
     width: 100%;
   }
 
-  /* line 430, ../sass/screen.scss */
+  /* line 433, ../sass/screen.scss */
   .desktop {
     display: none;
   }
 
-  /* line 431, ../sass/screen.scss */
+  /* line 434, ../sass/screen.scss */
   .mobile-only {
     display: block;
   }
 
-  /* line 433, ../sass/screen.scss */
+  /* line 436, ../sass/screen.scss */
   h2 {
     margin-left: auto;
     margin-right: auto;
@@ -596,7 +606,7 @@ h1 .header-photo {
     text-align: center;
   }
 
-  /* line 438, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   h3 {
     font-size: 25px;
     margin-left: auto;
@@ -607,20 +617,20 @@ h1 .header-photo {
     text-transform: uppercase;
   }
 
-  /* line 446, ../sass/screen.scss */
+  /* line 449, ../sass/screen.scss */
   h4 {
     padding-top: 5px;
     font-size: 20px;
   }
 
-  /* line 450, ../sass/screen.scss */
+  /* line 453, ../sass/screen.scss */
   h5 {
     color: #a8a8a9;
     padding-top: 5px;
     padding-bottom: 5px;
   }
 
-  /* line 456, ../sass/screen.scss */
+  /* line 459, ../sass/screen.scss */
   .header-photo {
     width: 50%;
     margin-left: auto;
